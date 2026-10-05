@@ -81,9 +81,10 @@ def on_worker_process(data):
         "-map", "0",
         "-map", "-0:d",
 
-        # Preserve metadata and chapters
+        # Preserve metadata, but drop chapters.
+        # MP4/M4V chapters may be represented as a text/bin_data stream.
         "-map_metadata", "0",
-        "-map_chapters", "0",
+        "-map_chapters", "-1",
 
         # No transcoding
         "-c", "copy",
