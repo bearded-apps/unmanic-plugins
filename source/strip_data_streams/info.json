@@ -1,0 +1,20 @@
+{
+    "author": "bearded-apps",
+    "compatibility": [
+        1,
+        2
+    ],
+    "description": "Losslessly removes data streams from video files before further processing.",
+    "icon": "",
+    "id": "strip_data_streams",
+    "name": "Strip Data Streams",
+    "platform": [
+        "all"
+    ],
+    "priorities": {
+        "on_library_management_file_test": 99,
+        "on_worker_process": 1
+    },
+    "tags": "video,ffmpeg,library file test",
+    "version": "0.0.1"
+}
