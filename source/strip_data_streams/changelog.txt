@@ -1,0 +1,5 @@
+[b]0.0.1[/b]
+- Initial release
+- Detect data streams using ffprobe
+- Losslessly remove all data streams using FFmpeg stream copy
+- Preserve chapters and metadata
